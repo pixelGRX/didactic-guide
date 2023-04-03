@@ -1,7 +1,6 @@
-const VERSION = 5
+const VERSION = 6
 
 const coordsEl = document.querySelector('div[title="Координаты пикселя."]')
-console.log({coordsEl});
 
 function getCoords(){
     const text = coordsEl.innerText;
@@ -17,7 +16,7 @@ let imgCtx, temCtx, imgW, imgH;
 
 async function loadTemplate(){
     return new Promise((res, rej) => {
-        const link = 'https://i.imgur.com/M4kQge6.png';
+        const link = 'https://i.imgur.com/QMWis1y.png';
         const img = new Image();
 
         img.crossOrigin = 'anonymous';
