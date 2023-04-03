@@ -17,7 +17,7 @@ let imgCtx, temCtx, imgW, imgH;
 
 async function loadTemplate(){
     return new Promise((res, rej) => {
-        const link = 'https://i.imgur.com/bqHogbr.png';
+        const link = 'https://i.imgur.com/M4kQge6.png';
         const img = new Image();
 
         img.crossOrigin = 'anonymous';
