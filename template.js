@@ -1,4 +1,4 @@
-const VERSION = 4
+const VERSION = 5
 
 const coordsEl = document.querySelector('div[title="Координаты пикселя."]')
 console.log({coordsEl});
