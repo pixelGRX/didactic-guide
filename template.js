@@ -1,4 +1,4 @@
-const VERSION = 9
+const VERSION = 10
 
 const coordsEl = document.querySelector('div[title="Координаты пикселя."]')
 
@@ -42,8 +42,8 @@ async function loadTemplate(){
 }
 
 // нечётное число, иначе будет не ровно
-const TEM_W = 10;
-const TEM_H = 10;
+const TEM_W = 9;
+const TEM_H = 9;
 const TEM_ZOOM = 10;
 
 async function initTemplate(){
